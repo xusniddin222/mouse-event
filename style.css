@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #222222; */
+    /* cursor: none; */
+}
+.container{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    /* background-color: #222222; */
+    /* text-align: center; */
+}
+.img{
+    position: absolute;
+    width: 75px;
+    user-select: none;
+    transition: 1s;
+}
+.cursor{
+    position: absolute;
+    width: 75px;
+    user-select: none;
+    transition: 1s;
+}
+.title{
+    font-size: 70px;
+    /* margin-inline: 30%; */
+    color: #222222;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cycle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid yellow;
+}
+.money{
+    transition: 1s;
+}
